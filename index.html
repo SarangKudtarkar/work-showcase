@@ -76,9 +76,135 @@
 
         </div>
 
+        <center>
+            <h3 class="headings" id="Publications">Research work</h3>
+        </center>
+
+        <div class="row row-content align-items-center">
+            <div class="col-12 col-sm-4 order-sm-last col-md-6 add-padding"><img
+                    class="img-fluid img-thumbnail align-self-center" src="img/scaling_plot.png" alt="LeakEstimator">
+            </div>
+            <div class="col-12 col-sm-8 order-sm-first col-md-6">
+                <div class="media">
+                    <div class="media-body">
+                        <h2 class="d-none d-sm-block">LeakEstimator</h2>
+                        <p class="d-none d-sm-block">The paper titled "LeakEstimator: A Unified Machine Learning-Based
+                            Framework for Process, Voltage, and Temperature (PVT) Aware Leakage Power Estimation in
+                            Digital Circuits" has been accepted at the 68th IEEE International Midwest Symposium on
+                            Circuits and Systems Conference (MWSCAS 2025).</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row row-content align-items-center">
+            <div class="col-12 col-sm-4 order-sm-last col-md-6 add-padding"><img
+                    class="img-fluid img-thumbnail align-self-center" src="img/XOR2_10nm_compare_models.png"
+                    alt="MAPIE">
+            </div>
+            <div class="col-12 col-sm-8 order-sm-first col-md-6">
+                <div class="media">
+                    <div class="media-body">
+                        <h2 class="d-none d-sm-block">Uncertainty-Aware Analysis of Digital Circuits</h2>
+                        <p class="d-none d-sm-block">MAPIE-based analysis to identify low-confidence regions in ML
+                            predictions, improving model reliability.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <center>
+            <h3 class="mt-0" id="projects">Projects</h3>
+        </center>
+
+
 
 
         <div class="row row-content align-items-center">
+            <div class="col-12 col-sm-4 order-sm-last col-md-6 add-padding"><img
+                    class="img-fluid img-thumbnail align-self-center" src="img/async_fifo.png" alt="async_fifo"></div>
+            <div class="col-12 col-sm-8 order-sm-first col-md-6">
+                <div class="media">
+                    <div class="media-body">
+                        <h2 class="mt-0">RTL2GDS-Asynchronous-FIFO</h2>
+                        <p class="d-none d-sm-block">RTL2GDS-Asynchronous-FIFO is an end-to-end implementation of an
+                            asynchronous FIFO design, starting from RTL coding and progressing through the complete
+                            RTL-to-GDSII flow. The project leverages OpenLane with the SkyWater 130nm PDK (Sky130) to
+                            perform synthesis, floorplanning, placement, routing, and signoff checks. It demonstrates
+                            the challenges of handling clock domain crossing in FIFO architectures and how design
+                            constraints are managed during physical implementation.</p><a class="add-padding"
+                            href="https://github.com/SarangKudtarkar/RTL2GDS-Asynchronous-FIFO">Project code</a>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-4"><i class="fa fa-microchip fa-2x"></i> <i class="fa fa-github fa-2x"></i>
+                </div>
+            </div>
+        </div>
+
+        <!--
+        <div class="row row-content align-items-center">
+            <div class="col-12 col-sm-4 order-sm-last col-md-6 add-padding"><img
+                    class="img-fluid img-thumbnail align-self-center" src="img/waveform_gtkwave.png"
+                    alt="waveform_gtkwave">
+            </div>
+            <div class="col-12 col-sm-8 order-sm-first col-md-6">
+                <div class="media">
+                    <div class="media-body">
+                        <h2 class="mt-0">AXI_LITE
+                        </h2>
+                        <p class="d-none d-sm-block">AXI Lite Verilog Project demonstrates a hardware design and
+                            verification flow for the AXI-Lite protocol using SystemVerilog. The project
+                            implements a simple AXI-Lite master and slave along with a top-level integration module to
+                            enable communication between them. A dedicated testbench is provided to simulate and
+                            validate protocol behavior, data transactions, and interface correctness. </p><a
+                            class="add-padding" href="https://github.com/SarangKudtarkar/AXI_LITE">Project code</a>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-4"><i class="fa fa-cogs fa-2x"></i> <i class="fa fa-github fa-2x"></i>
+                </div>
+            </div>
+        </div>
+        -->
+
+        <div class="row row-content align-items-center">
+            <div class="col-12 col-sm-4 order-sm-last col-md-6 add-padding"><img
+                    class="img-fluid img-thumbnail align-self-center" src="img/dft_comb_atpg.png"
+                    alt="Combinational ATPG using D - Algorithm"></div>
+            <div class="col-12 col-sm-8 order-sm-first col-md-6">
+                <div class="media">
+                    <div class="media-body">
+                        <h2 class="mt-0">Combinational ATPG using D - Algorithm</h2>
+                        <p class="d-none d-sm-block">This project focuses on Automatic Test Pattern Generation (ATPG)
+                            for combinational circuits using the D-Algorithm, which systematically generates input
+                            patterns to detect faults like stuck-at-0 or stuck-at-1. The D-Algorithm works by applying
+                            concepts of propagation, justification, and implication on a test cube, where unknown values
+                            (X) are gradually resolved into defined inputs that expose faults at the outputs. Unlike
+                            random test generation, it is a deterministic method, making it highly effective in ensuring
+                            testability and reliability of digital circuits. For implementation, programming languages
+                            like Python is preferred due to easier algorithmic modeling and data structure
+                            handling, whereas hardware description languages like Verilog are mainly used for circuit
+                            design and simulation.</p><a class="add-padding"
+                            href="https://drive.google.com/file/d/1cPW4o7riDZ4HSTumuuT9Ed43KwD68Ji5/view?usp=drive_link">Project
+                            code</a>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-4"><i class="fa fa-android fa-2x"></i> <i class="fa fa-github fa-2x"></i>
+                </div>
+            </div>
+        </div>
+
+
+        <!--
+        <center>
+            <div class="col-12 col-sm-6 align-self-center" id="more-projects"><a role="button"
+                    class="btn btn-block nav-link" href="https://github.com/SarangKudtarkar">More projects</a></div>
+        </center>
+        <hr>
+        -->
+
+        <div class="row row-content align-items-center">
+
             <div class="col-6 col-sm-5 col-md-3">
                 <center>
                     <h3 class="add-padding" id="experience">Work experience</h3>
@@ -102,9 +228,9 @@
 
 
             </div>
-        </div>
 
-        <div class="row row-content align-items-center">
+
+
             <div class="col-6 col-sm-5 col-md-3">
                 <center>
                     <h3 class="add-padding" id="education">Education</h3>
@@ -117,162 +243,8 @@
                     <h5 class="font-weight-light">International Institute of Information Technology Hyderabad
                         (IIITH)<br>
                         <h6 class="font-weight-light">CGPA: 9/10<p></p>
-                            <p></p>
-
-
-                            <h4 class="font-weight-light">B.Tech(Electronics and Telecommunication engineering)
-                                (2017-2021)<br>
-                                <h5 class="font-weight-light">Veermata Jijabai Technological Institute(VJTI), Mumbai<br>
-                                    <h6 class="font-weight-light">CPI: 7.47/10<p></p>
-                                        <p></p>
-
-                                        <h4 class="font-weight-light">HSC(2017)<br>
-                                            <h5 class="font-weight-light">KLE Junior college, Navi Mumbai<br>
-                                                <h6 class="font-weight-light">85.54%<p></p>
-                                                    <p></p>
-                                                    <h4 class="font-weight-light">SSC(2015)<br>
-                                                        <h5 class="font-weight-light">St.Joseph's high school, Navi
-                                                            Mumbai<br>
-                                                            <h6 class="font-weight-light">93.40%<p></p>
-                                                            </h6>
-                                                        </h5>
-                                                    </h4>
-                                                </h6>
-                                            </h5>
-                                        </h4>
-                                    </h6>
-                                </h5>
-                            </h4>
-
-
+                </h4>
             </div>
-        </div>
-
-
-
-
-
-        <center>
-            <h3 class="headings" id="Publications">Research work</h3>
-        </center>
-
-        <div class="row row-content align-items-center">
-            <div class="col-12 col-sm-4 order-sm-last col-md-3 add-padding"><img
-                    class="img-fluid img-thumbnail align-self-center" src="img/scaling_plot.png" alt="LeakEstimator">
-            </div>
-            <div class="col-12 col-sm-8 order-sm-first col-md-9">
-                <div class="media">
-                    <div class="media-body">
-                        <h2 class="mt-0">LeakEstimator</h2>
-                        <p class="d-none d-sm-block">The paper titled "LeakEstimator: A Unified Machine Learning-Based
-                            Framework for Process, Voltage, and Temperature (PVT) Aware Leakage Power Estimation in
-                            Digital Circuits" has been accepted at the 68th IEEE International Midwest Symposium on
-                            Circuits and Systems Conference (MWSCAS 2025).</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-
-
-        <center>
-            <h3 class="headings" id="projects">Projects</h3>
-        </center>
-
-
-
-
-        <div class="row row-content align-items-center">
-            <div class="col-12 col-sm-4 order-sm-last col-md-3 add-padding"><img
-                    class="img-fluid img-thumbnail align-self-center" src="img/async_fifo.png" alt="async_fifo"></div>
-            <div class="col-12 col-sm-8 order-sm-first col-md-9">
-                <div class="media">
-                    <div class="media-body">
-                        <h2 class="mt-0">RTL2GDS-Asynchronous-FIFO</h2>
-                        <p class="d-none d-sm-block">RTL2GDS-Asynchronous-FIFO is an end-to-end implementation of an
-                            asynchronous FIFO design, starting from RTL coding and progressing through the complete
-                            RTL-to-GDSII flow. The project leverages OpenLane with the SkyWater 130nm PDK (Sky130) to
-                            perform synthesis, floorplanning, placement, routing, and signoff checks. It demonstrates
-                            the challenges of handling clock domain crossing in FIFO architectures and how design
-                            constraints are managed during physical implementation. Special attention is given to timing
-                            closure, power analysis, and design rule verification to ensure manufacturability. This
-                            project highlights both practical VLSI design skills and hands-on experience with
-                            open-source EDA tools and PDKs.</p><a class="add-padding"
-                            href="https://github.com/SarangKudtarkar/RTL2GDS-Asynchronous-FIFO">Project code</a>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-4"><i class="fa fa-microchip fa-2x"></i> <i class="fa fa-github fa-2x"></i>
-                </div>
-            </div>
-        </div>
-
-
-        <div class="row row-content align-items-center">
-            <div class="col-12 col-sm-4 order-sm-last col-md-3 add-padding"><img
-                    class="img-fluid img-thumbnail align-self-center" src="img/waveform_gtkwave.png"
-                    alt="waveform_gtkwave">
-            </div>
-            <div class="col-12 col-sm-8 order-sm-first col-md-9">
-                <div class="media">
-                    <div class="media-body">
-                        <h2 class="mt-0">AXI_LITE
-                        </h2>
-                        <p class="d-none d-sm-block">AXI Lite Verilog Project demonstrates a hardware design and
-                            verification flow for the AXI-Lite protocol using Verilog/SystemVerilog. The project
-                            implements a simple AXI-Lite master and slave along with a top-level integration module to
-                            enable communication between them. A dedicated testbench is provided to simulate and
-                            validate protocol behavior, data transactions, and interface correctness. This project
-                            highlights practical experience with bus protocol implementation, design hierarchy, and
-                            verification methodologies. It serves as a foundation for learning and extending AXI-based
-                            communication in SoC and FPGA designs.</p><a class="add-padding"
-                            href="https://github.com/SarangKudtarkar/AXI_LITE">Project code</a>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-4"><i class="fa fa-cogs fa-2x"></i> <i class="fa fa-github fa-2x"></i>
-                </div>
-            </div>
-        </div>
-
-        <div class="row row-content align-items-center">
-            <div class="col-12 col-sm-4 order-sm-last col-md-3 add-padding"><img
-                    class="img-fluid img-thumbnail align-self-center" src="img/dft_comb_atpg.png"
-                    alt="Combinational ATPG using D - Algorithm"></div>
-            <div class="col-12 col-sm-8 order-sm-first col-md-9">
-                <div class="media">
-                    <div class="media-body">
-                        <h2 class="mt-0">Combinational ATPG using D - Algorithm</h2>
-                        <p class="d-none d-sm-block">This project focuses on Automatic Test Pattern Generation (ATPG)
-                            for combinational circuits using the D-Algorithm, which systematically generates input
-                            patterns to detect faults like stuck-at-0 or stuck-at-1. The D-Algorithm works by applying
-                            concepts of propagation, justification, and implication on a test cube, where unknown values
-                            (X) are gradually resolved into defined inputs that expose faults at the outputs. Unlike
-                            random test generation, it is a deterministic method, making it highly effective in ensuring
-                            testability and reliability of digital circuits. For implementation, programming languages
-                            like Python is preferred due to easier algorithmic modeling and data structure
-                            handling, whereas hardware description languages like Verilog are mainly used for circuit
-                            design and simulation. Overall, this highlights how deterministic ATPG complements
-                            design-for-test (DFT) strategies by bridging algorithmic fault modeling with practical
-                            circuit verification.</p><a class="add-padding"
-                            href="https://drive.google.com/file/d/1cPW4o7riDZ4HSTumuuT9Ed43KwD68Ji5/view?usp=drive_link">Project
-                            code</a>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-4"><i class="fa fa-android fa-2x"></i> <i class="fa fa-github fa-2x"></i>
-                </div>
-            </div>
-        </div>
-
-
-        <!--
-        <center>
-            <div class="col-12 col-sm-6 align-self-center" id="more-projects"><a role="button"
-                    class="btn btn-block nav-link" href="https://github.com/SarangKudtarkar">More projects</a></div>
-        </center>
-        <hr>
-        -->
-        <div class="row align-items-center"
-            style="margin:0 !important; padding:0 !important; border-top:0 !important; border-bottom:0 !important;">
 
 
             <div class="col-6 col-sm-5 col-md-3">
@@ -281,7 +253,7 @@
                 </center>
             </div>
             <div class="col-12 col-sm-7 col-md-9">
-                <h5 class="font-weight-light">Python, C++, HSPICE, Verilog<p></p>
+                <h5 class="font-weight-light"> Verilog, Python, C++, HSPICE<p></p>
                 </h5>
             </div>
 
