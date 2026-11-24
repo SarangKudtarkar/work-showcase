@@ -252,34 +252,11 @@
                 </div>
 
                 <figure class="chart-card">
-                    <svg viewBox="0 0 520 330" role="img" aria-label="Illustration of a model prediction line with a shaded confidence band that widens toward the right">
-                        <line class="c-grid" x1="40" y1="60" x2="500" y2="60" />
-                        <line class="c-grid" x1="40" y1="130" x2="500" y2="130" />
-                        <line class="c-grid" x1="40" y1="200" x2="500" y2="200" />
-                        <line class="c-axis" x1="40" y1="270" x2="500" y2="270" />
-                        <line class="c-axis" x1="40" y1="20" x2="40" y2="270" />
 
-                        <path class="c-band" d="M40,228 C140,218 200,180 260,140 C330,94 400,64 490,22 L490,106 C400,128 330,142 260,180 C200,212 140,246 40,252 Z" />
-                        <path class="c-line" d="M40,240 C140,232 200,196 260,160 C330,118 400,96 490,64" />
+                    <figure class="work-fig">
+                        <img src="img/FA_7nm_NGBOOST_DISTRIBUTION_plot.png" alt="NGBoost Predictions at Varying Temperatures for the FA 7 nm Gate" loading="lazy">
+                    </figure>
 
-                        <circle class="c-dot" cx="70" cy="238" r="3.5" />
-                        <circle class="c-dot" cx="100" cy="237" r="3.5" />
-                        <circle class="c-dot" cx="130" cy="228" r="3.5" />
-                        <circle class="c-dot" cx="165" cy="216" r="3.5" />
-                        <circle class="c-dot" cx="200" cy="192" r="3.5" />
-                        <circle class="c-dot" cx="235" cy="176" r="3.5" />
-                        <circle class="c-dot" cx="270" cy="150" r="3.5" />
-                        <circle class="c-dot" cx="305" cy="140" r="3.5" />
-                        <circle class="c-dot" cx="340" cy="112" r="3.5" />
-                        <circle class="c-dot" cx="380" cy="104" r="3.5" />
-                        <circle class="c-dot" cx="420" cy="92" r="3.5" />
-                        <circle class="c-dot" cx="455" cy="70" r="3.5" />
-
-                        <path class="c-bracket" d="M504,22 L510,22 L510,106 L504,106" />
-                        <text class="c-text" x="40" y="294">Process, voltage, temperature conditions</text>
-                        <text class="c-text" x="40" y="14">Leakage power</text>
-                        <text class="c-text" x="310" y="318">Wider band: lower confidence</text>
-                    </svg>
                     <figcaption>Illustration of the idea behind my research: a prediction, simulation points, and a confidence band that widens where the model is less sure.</figcaption>
                 </figure>
             </div>
@@ -363,7 +340,7 @@
                     </figure>
                 </article>
 
-                <article class="work" style="grid-template-columns: minmax(0, 1fr);">
+                <article class="work">
                     <div>
                         <h3 class="work-title">AI datasheet for analog circuit parameters</h3>
                         <p class="work-text">An AI-driven datasheet that predicts multiple analog circuit parameters from design variations, in place of repeated circuit simulation. It reduces simulation time and makes it easy to see trends across design variations, which supports PPA-driven (power, performance, area) design exploration.</p>
@@ -374,7 +351,11 @@
                             <li class="tag">Design exploration</li>
                         </ul>
                     </div>
+                    <figure class="work-fig">
+                        <img src="img/two_stage_opamp_trend.png" alt="AI datasheet trends" loading="lazy">
+                    </figure>
                 </article>
+
             </div>
         </section>
 
